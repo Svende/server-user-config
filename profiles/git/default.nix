@@ -26,13 +26,13 @@
 
     extraConfig = {
       pull.rebase = false;
-      core.editor = "nvim";
+      core.editor = "emacs";
       core.pager = "less";
       merge.tool = "vimdiff";
       branch.autosetuprebase = "always";
 
-      user.name = "Physicist";
-      user.email = "lhcb@physics.umd.edu";
+      user.name = "svende";
+      user.email = "sabraun@umd.edu";
     };
 
     aliases = {
